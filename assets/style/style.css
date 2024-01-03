@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --bg-dark: #3a4f66;
+  --bg-light: #eeeeee;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.bg-color {
+  background: var(--bg-light);
+}
+.col-6 img {
+  width: 319px;
+}
+ .mb-05 {
+    margin-bottom: 0.5rem;
+ }
+ .new-logo{
+  max-width: 319px;
+ }
+ .collapse{
+  font-size: 12px;
+ }
