@@ -14,18 +14,73 @@ img {
   max-width: 100%;
   height: auto;
 }
-.bg-color {
+.bg-light-color {
   background: var(--bg-light);
-}
-.col-6 img {
-  width: 319px;
 }
  .mb-05 {
     margin-bottom: 0.5rem;
  }
- .new-logo{
+ .newz-logo{
   max-width: 319px;
  }
  .collapse{
   font-size: 12px;
  }
+ /* .navbar{
+  margin: 10px 0px;
+ } */
+ .navbar-toggler-icon{
+  width: 18px;
+  height: 18px;
+ }
+ .container{
+  padding-bottom: 0px;
+ }
+.nav-content{
+  font: 700;
+  padding: 0px 12px;
+  text-decoration: none;
+  color: var(--bg-dark);
+}
+.nav-icon{
+  width: 15px;
+  height: 15px;
+  color: var(--bg-dark);
+}
+.nav-content:hover, .nav-icon:hover, .text-decoration-underline:hover{
+  color: #1559ED;
+  cursor: pointer;
+}
+.card-title:hover{
+  color: #1559ED;
+  cursor: pointer;
+}
+.card{
+  gap: 8px;
+}
+.card-title{
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.card-body{
+  padding: 0px;
+}
+.btn{
+  font-size: 15px;
+  background-color: #2872fa;
+}
+.date{
+  gap: 0.5rem;
+  font-size: 12px;
+}
+.clr-dark{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #192A3D;
+      font-weight: bold;
+
+}
+.gap{
+  gap: 2%;
+}
