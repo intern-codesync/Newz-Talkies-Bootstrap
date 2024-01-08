@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 :root {
+  --bg-sky: #1559ED;
   --bg-dark: #3a4f66;
   --bg-light: #eeeeee;
 }
@@ -26,9 +27,6 @@ img {
  .collapse{
   font-size: 12px;
  }
- /* .navbar{
-  margin: 10px 0px;
- } */
  .navbar-toggler-icon{
   width: 18px;
   height: 18px;
@@ -48,11 +46,11 @@ img {
   color: var(--bg-dark);
 }
 .nav-content:hover, .nav-icon:hover, .text-decoration-underline:hover{
-  color: #1559ED;
+  color: var(--bg-sky);
   cursor: pointer;
 }
 .card-title:hover{
-  color: #1559ED;
+  color: var(--bg-sky);
   cursor: pointer;
 }
 .card{
@@ -66,9 +64,13 @@ img {
 .card-body{
   padding: 0px;
 }
-.btn{
-  font-size: 15px;
-  background-color: #2872fa;
+.btn-top{
+  border-radius:2px;
+  padding: 5px 12px;
+  border: 0px solid;
+  bottom: 25px;
+  right: 25px;
+  background-color: #192e3f;
 }
 .date{
   gap: 0.5rem;
@@ -81,6 +83,35 @@ img {
       font-weight: bold;
 
 }
+.active{
+  color: var(--bg-sky);
+}
 .gap{
   gap: 2%;
 }
+
+@media (min-width: 1200px){
+  .mt-xl-5 {
+    margin-top: 4rem!important;
+  }
+  .py-5{
+    padding: 60px 0px!important;
+  }
+  }
+  @media (min-width: 768px){
+    .py-5{
+      padding: 60px 0px!important;
+    } 
+}
+.back-to-top{
+ color: white;
+}
+.parent{
+  transition: all .5s ease-out;
+ 
+} 
+.parent:hover .child-1{    
+  transform: scale(1.1);  
+  height: 300px;
+  overflow: hidden; 
+  }
