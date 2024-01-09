@@ -106,12 +106,13 @@ img {
 .back-to-top{
  color: white;
 }
-.parent{
-  transition: all .5s ease-out;
- 
-} 
-.parent:hover .child-1{    
-  transform: scale(1.1);  
-  height: 300px;
-  overflow: hidden; 
-  }
+.overflow-hidden{
+  overflow: hidden;
+}
+.card-img{
+  transition: transform 1s, filter 2s ease-in-out;
+  transform: scale(1.2);
+}
+.card:hover .card-img{
+  transform: scale(1);
+}
